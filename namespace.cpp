@@ -11,7 +11,7 @@ int main()
 {
     using   namespace first;
     int x = 7;
-
+    //Namespace = provides a solution for preventing name conflicts in large projects. Each entity needs a unique name. A namespace allows for identically named entities as long as the namespaces are different.
     std::cout << first::x <<std::endl; //5
     std::cout << x <<'\n';  //7
     std::cout << second::x; //10

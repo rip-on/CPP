@@ -19,13 +19,20 @@ int main()
     //     std::cout << "The temperature is bad";
     // }
     int temp;
+    bool sunny = true;
     std::cout << "Enter 2nd TEMP: ";
     std::cin >> temp;
     if(temp <= 0 || temp >= 30){
-        std::cout << "The temperature is BAD!";
+        std::cout << "The temperature is BAD!\n";
     }
     else{
-        std::cout << "The temperature is GOOD!";
+        std::cout << "The temperature is GOOD!\n";
+    }
+    if(!sunny){
+        std::cout << "It is sunny outside!\n";
+    }
+    else{
+        std::cout << "It is cloudy outside!";
     }
     return 0; 
 }
