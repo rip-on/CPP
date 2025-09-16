@@ -39,6 +39,6 @@ int main()
 
     cout << t1.name<<"\n";
     cout << t1.dept;
-    cout << t1.getSalary();
+    cout << t1.getSalary(); //25000
     return 0;
 }
